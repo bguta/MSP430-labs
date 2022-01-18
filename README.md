@@ -15,3 +15,13 @@ install mspdebug so that programs can be uploaded
 foo@bar:~$ yay -S mspdebug
 ```
 
+# upload program
+```console
+foo@bar:~$ mspdebug rf2500
+```
+then run
+```
+prog /path/to/main.elf
+run
+```
+
